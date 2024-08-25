@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#bot {
+  transform: rotate(180deg);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#top,
+#mid,
+#bot {
+  font-size: 5rem;
+}
